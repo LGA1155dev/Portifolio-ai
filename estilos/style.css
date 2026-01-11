@@ -22,7 +22,9 @@ body{
 }
 
 .menu{
-    background-color: rgba(79, 99, 165, 0.568);
+    /*
+    background-color: rgba(79, 99, 165, 0.568);*/
+    background-color:  #3569f8da;
     width: 100%;
     justify-content: center;
     align-items: center;
@@ -31,7 +33,7 @@ body{
 }
 
 .items{
-    background-color: lightgrey;
+    background-image: linear-gradient(to left, #6b93ffc1, transparent);
     cursor: pointer;
     padding: 10px;
     border-radius: 10px;
@@ -50,7 +52,8 @@ body{
 .ancoras{
     display: flex;
     gap: 10px;
-    background-color: rgba(119, 147, 206, 0.87);
+    background-image: linear-gradient(to right, #0062ff, transparent);
+   /* background-color: rgba(119, 147, 206, 0.87);*/
 }
 
 .redes{
@@ -70,28 +73,37 @@ body{
 
 .principal{
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    flex-flow: row wrap;
     align-items: center;
     width: 100%;
-    background-size: cover;
-    background-image: linear-gradient(to top, #5867a8, #6876b4b7, #7785c2d3);
+    background-color: #dededeb3;
+
+   /* background-image: linear-gradient(to top, #5867a8, #6876b4b7, #7785c2d3);*/
 }
 
 .principal img{
     width: 500px;
-    border-radius: 20px;
-    box-shadow: 2px 2px 10px 1px rgba(81, 95, 160, 0.664);
+    border-radius: 50%;
+    box-shadow: 2px 2px 20px 10px #282d46a9;
     margin-top: 20px;
+    margin-right: 20px;
     margin-bottom: 20px;
     cursor: pointer;
+}
+
+.secundario{
+    display: flex;
 }
 
 .description{
     font-family: var(--font1);
     display: flex;
-    background-color: #9ca6d6;
+    background-color: #ffffff;
+   /* background-color: #9ca6d6;*/
     border-radius: 10px;
     padding: 30px;
+    margin-bottom: 40px;
     width: 500px;
     font-size: 1.5em;
 }
@@ -114,4 +126,6 @@ body{
     margin: 20px;
     box-shadow: 2px 2px 10px 2px black;
     width: 200px;
+
+    background-color: #9a9a9aeb;
 }
