@@ -34,24 +34,29 @@
             <div class="description">
                 Hello, welcome to my portfolio. &#x1F44B <br> My name is Gabriel, I am 15 years old and I am a Front-End student of HTML, CSS, and JS. &#x1F913  <br> I have already done several projects that are even saved and published on my GitHub, and I have also done school assignments using HTML and CSS.
             </div>
-            <div class="sobre"></div>
-                <div class="sobreMim">
-                    Hello world
-                </div>
+            <div class="projetos">
+                <img src="imagens/Caixa-portifolio.png" alt="imagem ilustrativa de um login da caixa">
+            </div>
             </div>
         </div>
    </div> 
 
    <script>
+
         var btn = document.getElementById('btn');
         btn.addEventListener('click', () =>{
+
 
         document.querySelector('nav.menu').style.background = 'grey'
 
         var ancoras =  document.querySelector('.ancoras');
         ancoras.style.background = '#9a9a9aeb';
 
+        document.querySelector('.description').style.background = 'grey'
 
+        document.querySelectorAll('.items').style.background = 'black'
+
+            
         })
 
    </script>
