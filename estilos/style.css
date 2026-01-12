@@ -60,7 +60,7 @@ body{
 
 .redes{
     border: 1px solid rgb(62, 63, 68);
-    color: black;
+    color: white;
     border-radius: 40px;
     font-size: 1.3em;
     padding: 10px;
@@ -69,9 +69,34 @@ body{
 .redes:hover{
     transition: color 1s, text-shadow .5s, box-shadow 1s;
     color: black;
-    text-shadow: 2px 2px 2px white;
+    text-shadow: 2px 2px 2px #8a8a8a;
     box-shadow: 0px 0px 20px 0px rgba(85, 84, 84, 0.788);
 }
+
+#instagram:hover{
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    transition: .5s;
+}
+
+#facebook:hover{
+    color: #38539c;
+    text-shadow: 2px 2px 2px #ffffff33;
+    transition: .5s;
+}
+
+#x:hover{
+    color: black;
+    text-shadow: 2px 2px 2px white;
+    transition: .5s;
+}
+
+#reddit:hover{
+    color: #fc4e23c2;
+    text-shadow: 3px 1px 9px #4b49493f;
+    transition: .5s;
+}
+
 
 .principal{
     display: flex;
