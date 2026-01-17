@@ -1,0 +1,13 @@
+#projetos{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+}
+
+#projetos img{
+    display: flex;
+
+    background-size: cover;
+    width: 500px;
+    border-radius: 10px;
+}

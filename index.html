@@ -10,11 +10,13 @@
 <body>
    <div class="container">
         <div class="topo">
-            <nav class="menu">
-                <div class="items"><i class="fa-regular fa-house"></i> Home</div>
-                <div class="items"><i class="fa-regular fa-circle-question"></i> Ajuda </div>
-                <div class="items"><i class="fa-solid fa-info"></i> Sobre</div>
-            </nav>
+
+            <button id="Btn-menu"><i class="fa-solid fa-bars"></i></button>
+            <ul class="menu" class="menuBar">
+                <li class="items"><a href="#"><i class="fa-regular fa-house"></i>Home</a></li>
+                <li class="items"><a href="#"><i class="fa-regular fa-circle-question"></i>Ajuda</a></li>
+                <li class="items"><a href="#projetos"><i class="fa-solid fa-laptop-code"></i>Projetos</a></li>
+            </ul>
 
             <nav class="ancoras">
                 <a href="#" class="redes" id="instagram"><i class="fa-brands fa-instagram"></i></a>
@@ -30,37 +32,29 @@
             </div>
 
             <div class="description">
+            <h1>Hi my name is <span>Gabriel</span></h1>
                 Hello, welcome to my portfolio. &#x1F44B <br> My name is Gabriel, I am 15 years old and I am a Front-End student of HTML, CSS, and JS. &#x1F913  <br> I have already done several projects that are even saved and published on my GitHub, and I have also done school assignments using HTML and CSS.
             </div>
-            <div class="projetos">
+            <div id="projetos">
                 <img src="imagens/Caixa-portifolio.png" alt="imagem ilustrativa de um login da caixa">
                 <img src="imagens/LoginPrincipal.png" alt="">
+            </div>
+            </div>
+
+            <div class="container-skills">
+                <div class="skills">
+                    <h1> <i class="fa-solid fa-brain"></i> Minhas Skills</h1>
+                    <div class="Minhas-Skills">
+                       <P class="HTML skill-bar"><i class="fa-brands fa-html5"></i>HTML</P>
+                        <p class="CSS skill-bar"><i class="fa-brands fa-css3-alt"></i>CSS</p>
+                        <p class="JS skill-bar"><i class="fa-brands fa-square-js"></i> Java Script</p>
+                        <p class="OUTRAS skill-bar"><i class="fa-brands fa-php"></i> Outras</p>
+                    </div>
             </div>
             </div>
         </div>
    </div> 
 
-   <script>
-
-        const btn = document.getElementById('btn');
-        btn.addEventListener('click', () =>{
-
-        btn.style.color = 'white'
-        btn.style.textShadow = 'black'
-        document.querySelector('nav.menu').style.background = 'grey'
-
-        var ancoras =  document.querySelector('.ancoras');
-        ancoras.style.background = '#9a9a9aeb';
-
-        document.querySelector('.description').style.background = 'grey'
-
-        document.querySelectorAll('.items').style.background = 'black'
-
-            if (!btn){
-                btn.style.color = 'black'
-            }
-        })
-
-   </script>
+   <script src="script.js"></script>
 </body>
 </html>

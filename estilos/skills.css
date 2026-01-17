@@ -1,0 +1,156 @@
+.container-skills{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.skills{
+    box-shadow: 2px 2px 15px 2px rgb(97, 96, 96);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+    background-image: radial-gradient( #4479c95f, #8ea0bd56);
+}
+
+.Minhas-Skills{
+    padding: 30px;
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    gap: 30px;
+}
+
+ h1{
+    font-size: 1.5em;
+    font-family: "Roboto Mono";
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+h1 i{
+    color: rgb(190, 87, 147);
+    font-size: 1.3em;
+}
+
+.HTML, .CSS, .JS, .OUTRAS{
+    box-shadow: 12px 2px 15px 2px rgb(130, 126, 126);
+}
+
+.HTML{
+    width: 90%;
+    font-size: 1.4em;
+    padding: 10px;
+    background-color: rgba(201, 124, 96, 0.692);
+    background-image: linear-gradient(to right, #e25a2994, transparent);
+    border-radius: 50px;
+}
+
+.HTML i{
+    font-size: 1.3em;
+    color: rgb(230, 79, 24);
+    text-shadow: 3px 4px 10px  #1b1b1bda;
+}
+
+.HTML:hover{
+    position: relative;
+    left: 5px;
+    top: -5px;
+    width: 100%;
+    border: 2px solid rgb(85, 53, 26);
+    transition: background-color 1s, background-image 1s, border .1s, width 1s, left 1s, top 1s;
+    cursor: pointer;
+    background-color: rgba(201, 124, 96, 0.507);
+    background-image: linear-gradient(to right, #e25a2969, transparent);
+}
+
+.CSS{
+    animation-delay: 0.4s;
+    --nivel: 70%;
+    width: var(--nivel);
+    font-size: 1.3em;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: rgb(117, 117, 209);
+    background-image: linear-gradient(to right, #568ce2, transparent);
+}
+
+.CSS:hover{
+    position: relative;
+    left: 5px;
+    top: -5px;
+    width: 80%;
+    transition: background-color 1s, background-image 1s, border .1s, width 1s, top 1s, left 1s;
+    border: 2px solid rgb(44, 50, 87);
+    background-color: rgba(117, 117, 209, 0.692);
+    background-image: linear-gradient(to right, #568ce29a, transparent);
+    cursor: pointer;
+}
+
+.CSS i{
+    font-size: 1.3em;
+    color: rgb(34, 34, 219);
+    text-shadow:  3px 4px 10px #1b1b1bda;
+}
+
+.JS{
+    animation-delay: 0.6s;
+    --nivel: 40%;
+    width: var(--nivel);
+    font-size: 1.2em;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: rgba(226, 226, 115, 0.692);
+    background-image: linear-gradient(to right, #fcfc2e, transparent);
+}
+
+.JS:hover{
+    position: relative;
+    left: 5px;
+    top: -5px;
+    width: 50%;
+    transition: background-color 1s, background-image 1s, border .1s, width 1s, top 1s, left 1s;
+    border: 2px solid  rgb(88, 88, 20);
+    cursor: pointer;
+    background-color: rgba(226, 226, 115, 0.486);
+    background-image: linear-gradient(to right, #fcfc2ec7, transparent);
+}
+
+.JS i{
+    font-size: 1.2em;
+    color: #292903;
+    text-shadow: 3px 4px 10px #1b1b1ba9;
+    
+}
+
+.OUTRAS{
+    animation-delay: 0.8s;
+    --nivel: 30%;
+    width: var(--nivel);
+    font-size: 1.2em;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #a69adac9;
+    background-image: linear-gradient(to right, #9c8ce2, transparent);
+}
+
+.OUTRAS:hover{
+    position: relative;
+    left: 5px;
+    top: -5px;
+    width: 40%;
+    transition: background-color 1s, background-image 1s, border .1s, width 1s, top 1s, left 1s;
+    border: 2px solid rgb(86, 53, 88);
+    cursor: pointer;
+    background-color: #a69ada93;
+    background-image: linear-gradient(to right, #9c8ce2be, transparent);
+}
+
+.OUTRAS i{
+    color: #a84ae7;
+    text-shadow: 3px 4px 10px #1b1b1bb0;
+    font-size: 1.4em;
+}

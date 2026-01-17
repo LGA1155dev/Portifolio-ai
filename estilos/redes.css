@@ -1,0 +1,46 @@
+.ancoras{
+    display: none;
+    gap: 20px; 
+    background-image: linear-gradient(to right, #5374adae, #8598cb9f, transparent);
+
+    & .redes{
+    border: 1px solid rgb(62, 63, 68);
+    color: white;
+    border-radius: 20px;
+    font-size: 1.4em;
+    padding: 10px;
+
+    &:hover{
+    transition: color 1s, text-shadow .5s, box-shadow 1s;
+    color: black;
+    text-shadow: 2px 2px 2px #8a8a8a;
+    box-shadow: 0px 0px 20px 0px rgba(85, 84, 84, 0.788);
+    }
+    }
+
+    & #instagram:hover{
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    transition: .5s;
+    }
+
+
+    & #facebook:hover{
+    color: #273a6d;
+    text-shadow: 2px 2px 2px #ffffff33;
+    transition: .5s;
+    }
+
+    & #x:hover{
+    color: black;
+    text-shadow: 2px 2px 2px white;
+    transition: .5s;
+    }
+
+    & #reddit:hover{
+    color: #fc4e23e0;
+    text-shadow: 3px 1px 9px #4b49493f;
+    transition: .5s;
+    }
+
+}
